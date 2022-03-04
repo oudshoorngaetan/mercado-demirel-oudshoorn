@@ -349,3 +349,16 @@ textarea {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Bootstrap */
+
+.text{
+  text-align: justify;
+  width: 25em;
+}
+
+.img-fluid{
+width: 100% \9;
+max-width: 800px;
+height: auto;
+}
