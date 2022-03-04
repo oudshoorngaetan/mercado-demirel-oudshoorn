@@ -269,7 +269,7 @@ textarea {
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Cache l'image par défaut */
 .mySlides {
   display: none;
   width: 60%;
@@ -277,13 +277,13 @@ textarea {
   left: 20%;
 }
 
-/* Hauteur de l'image constante */
+/* Hauteur de l'image constante (presque)*/
 
 .mySlides img {
-  height: 400px;
+  max-height: 400px;
 }
 
-/* Bouttons suivant et précédent */
+/* Boutons suivant et précédent */
 .prev, .next {
   cursor: pointer;
   position: absolute;
