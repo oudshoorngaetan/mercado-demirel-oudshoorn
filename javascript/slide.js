@@ -1,5 +1,7 @@
 var slideIndex = 0;
-setInterval(plusSlides(1), 4000);
+plusSlides(1);
+setInterval(plusSlides, 4500,1);
+
 
 // Next/previous controls
 function plusSlides(n) {
